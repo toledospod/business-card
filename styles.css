@@ -1,37 +1,20 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2822
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Roman;}
-{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;\red237\green208\blue116;
-\red202\green202\blue202;\red212\green212\blue212;\red151\green189\blue214;\red72\green122\blue149;}
-{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c100000\c100000\c100000;\cssrgb\c94510\c84314\c52941;
-\cssrgb\c83137\c83137\c83137;\cssrgb\c86275\c86275\c86275;\cssrgb\c65490\c78824\c87059;\cssrgb\c34902\c55294\c65098;}
-\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\deftab720
-\pard\pardeftab720\partightenfactor0
+body {
+    margin: 20px;
+    font-family: Arial,Helvetica,sans-serif;
+}
 
-\f0\fs26 \cf2 \cb3 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec4 body\strokec5  \strokec6 \{\strokec5 \
-    \strokec7 margin:\strokec5  \strokec8 20px\strokec6 ;\strokec5 \
-   \strokec7 font-family:\strokec5  \strokec8 Arial\strokec6 ,\strokec5  \strokec8 Helvetica\strokec6 ,\strokec5  \strokec8 sans-serif\strokec6 ;\strokec5 \
-\pard\pardeftab720\partightenfactor0
-\cf2 \strokec6 \}\strokec5 \
-\
-\pard\pardeftab720\partightenfactor0
-\cf2 \strokec4 .avatar\strokec5  \strokec6 \{\strokec5 \
-    \strokec7 width:\strokec5  \strokec8 150px\strokec6 ;\strokec5 \
-\pard\pardeftab720\partightenfactor0
-\cf2 \strokec6 \}\strokec5 \
-\
-\pard\pardeftab720\partightenfactor0
-\cf2 \strokec4 .card\strokec5  \strokec6 \{\strokec5 \
-    \strokec7 width:\strokec5  \strokec8 400px\strokec6 ;\strokec5 \
-    \strokec7 margin:\strokec5  \strokec8 0\strokec5  \strokec8 auto\strokec6 ;\strokec5 \
-    \strokec7 padding:\strokec5  \strokec8 20px\strokec6 ;\strokec5 \
-    \strokec7 display:\strokec5  \strokec8 flex\strokec6 ;\strokec5 \
-    \strokec7 justify-content:\strokec5  \strokec8 space-around\strokec6 ;\strokec5 \
-    \strokec7 text-align:\strokec5  \strokec8 center\strokec6 ;\strokec5 \
-    \strokec7 background:\strokec5  \strokec8 #457b9d\strokec6 ;\strokec5 \
-    \strokec7 color:\strokec5  \strokec8 #2b2839\strokec6 ;\strokec5 \
-    \strokec7 border-bottom:\strokec5  \strokec8 6px\strokec5  \strokec8 solid\strokec5  \strokec8 #e63946\strokec6 ;\strokec5 \
-\pard\pardeftab720\partightenfactor0
-\cf2 \strokec6 \}\strokec5 \
+.avatar{
+    width:150px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #457b9d;
+    color: #2b2839;
+    border-bottom: 6px solid #e63946;
 }
